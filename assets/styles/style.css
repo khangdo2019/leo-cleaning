@@ -1,162 +1,319 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-size: 14px;
-    font-family: 'PT serif', Georgia, Times, 'Times New Roman', serif;
-}
-
-header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    background-color: white;
-    z-index: 100;
-}
-
-#logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 12%;
-}
-
-h1 {
-    padding: 1rem 2rem;
-    margin: 0 6rem;
-    font-size: 5rem;
-    color: #BC8648;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-h2 {
-    padding: 1rem;
-    font-size: 2.5rem;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-header .slogan {
-    padding: 0 1rem;
-    text-align: center;
-    color: #BC8648;
-}
-
-header .slogan h2 {
-    color: #BC8648;
-    padding-top: 0;
-    padding-bottom: 0.5rem;
-}
-
-header .slogan div {
-    position: relative;
-    text-align: center;
-}
-
-header .slogan img {
-    margin-right: 4px;
-}
-
-header .slogan p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 1px;
-}
-
-header .call-us {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 3rem 2rem;
-    width: 15%;
-}
-
-header .call-us p {
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header .call-us img {
-    width: 20%;
-}
-
-header .call-us span {
-    font-size: 2rem;
-}
-
-header .call-us p:last-child {
-    font-size: 1.5rem;
-    margin-top: 0.5rem;
-}
-
-section .covid {
-    background-color: #FEE2EA;
-    margin-top: 1rem;
-}
-
-section .covid p {
-    padding: 1rem;
-    font-size: 1.5rem;
-    letter-spacing: 0.5px;
-    line-height: 1.5rem;
-}
-
-figure .main-picture img {
-    width: 100vw;
-}
-
-section .service {
-    background-color: #EEE;
-    margin-top: 1rem;
-}
-
-section .service .introduction {
-    padding: 1rem;
-}
-
-section .service .introduction p {
-    margin: 1rem;
-    line-height: 1.5rem;
-    letter-spacing: 0.5px;
-}
-
-section .service .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 10px;
-    padding: 1.5rem;
-}
-
-section .service .container .box {
-    position: relative;
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 2rem;
-    background-color: #FEE2EA;
-    border-radius: 10px;
-    box-shadow: 0 8px 12px rgb(0, 0, 0, 0.25);
-}
-
-section .service .container .box img {
-    width: 100%;
-}
-
-section .service .container .box h3 {
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    letter-spacing: 1px;
-}
-
-section .service .container .box p {
-    text-align: center;
-    font-size: 1rem;
-    padding: 0.5rem;
-    letter-spacing: 0.5px;
-    overflow: auto;
-}
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-size: 14px;
+            font-family: 'PT serif', Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color: white;
+            z-index: 100;
+        }
+        
+        #logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 12%;
+        }
+        
+        h1 {
+            padding: 1rem 2rem;
+            margin: 0 6rem;
+            font-size: 5rem;
+            color: #BC8648;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        
+        h2 {
+            padding: 1rem;
+            font-size: 2.5rem;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        
+        p {
+            line-height: 1.5rem;
+            letter-spacing: 0.5px;
+        }
+        
+        header .slogan {
+            padding: 0 1rem;
+            text-align: center;
+            color: #BC8648;
+        }
+        
+        header .slogan h2 {
+            color: #BC8648;
+            padding-top: 0;
+            padding-bottom: 0.5rem;
+        }
+        
+        header .slogan div {
+            position: relative;
+            text-align: center;
+        }
+        
+        header .slogan img {
+            margin-right: 4px;
+        }
+        
+        header .slogan p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            letter-spacing: 1px;
+        }
+        
+        header .call-us {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 3rem 2rem;
+            width: 15%;
+        }
+        
+        header .call-us p {
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        header .call-us img {
+            width: 20%;
+        }
+        
+        header .call-us span {
+            font-size: 2rem;
+        }
+        
+        header .call-us p:last-child {
+            font-size: 1.5rem;
+            margin-top: 0.5rem;
+        }
+        
+        section .covid {
+            background-color: #FEE2EA;
+            margin-top: 1rem;
+        }
+        
+        section .covid p {
+            padding: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        figure .main-picture img {
+            width: 100vw;
+        }
+        
+        section .service {
+            background-color: #EEE;
+            margin-top: 1rem;
+        }
+        
+        section .service .introduction {
+            padding: 1rem;
+        }
+        
+        section .service .introduction p {
+            margin: 1rem;
+        }
+        
+        section .service .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 2rem;
+            padding: 1rem 8rem 3rem 8rem;
+            width: 100%;
+        }
+        
+        section .service .container .box {
+            position: relative;
+            width: 100%;
+            height: 60vh;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            background-color: #FEE2EA;
+            box-shadow: 0 8px 12px rgb(0, 0, 0, 0.25);
+            overflow: hidden;
+        }
+        
+        section .service .container .box img {
+            width: 100%;
+        }
+        
+        section .service .container .box h3 {
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 0.5rem;
+            letter-spacing: 1px;
+        }
+        
+        section .service .container .box p {
+            text-align: center;
+            font-size: 1rem;
+            padding: 0.5rem;
+            letter-spacing: 0.5px;
+            overflow: auto;
+        }
+        
+        #about-us {
+            position: relative;
+            width: 100%;
+            margin-top: 3rem;
+            padding-top: 6rem;
+            padding-bottom: 8rem;
+        }
+        
+        section .choose-us {
+            background-color: #FEE2EA;
+            /* margin-top: 5rem; */
+            margin-right: 40%;
+            padding: 3.5rem;
+            z-index: -1;
+        }
+        
+        section .choose-us h2 {
+            text-align: left;
+            margin-left: 3rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        section .choose-us p {
+            margin-bottom: 1rem;
+        }
+        
+        section .quote {
+            background-color: #EEE;
+            position: absolute;
+            width: 35%;
+            height: 110%;
+            top: 0;
+            right: 1.5rem;
+            padding: 2rem;
+            line-height: 2.5rem;
+            margin-right: 4rem;
+        }
+        
+        section .quote h2 {
+            color: #BC8648;
+        }
+        
+        section .quote .input-container {
+            background-color: white;
+            padding: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        section .quote .input-container .input {
+            border: none;
+        }
+        
+        section .quote .input-container .input:focus {
+            outline: none;
+            text-decoration: underline;
+        }
+        
+        input:-webkit-autofill,
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus,
+        input:-webkit-autofill:active {
+            -webkit-box-shadow: 0 0 0 30px white inset !important;
+        }
+        
+        #comment-label {
+            display: block;
+        }
+        
+        section .quote input,
+        section .quote label,
+        section .quote textarea {
+            cursor: pointer;
+        }
+        
+        section .quote input[type="submit"] {
+            border: none;
+            background-color: #FEE2EA;
+            color: #BC8648;
+            font-size: 1.5rem;
+            font-weight: bold;
+            width: 180px;
+            height: 40px;
+            border-radius: 20px;
+            position: relative;
+            display: block;
+            margin: auto;
+            letter-spacing: 1px;
+        }
+        
+        section .quote input[type="submit"]:hover {
+            color: red;
+            cursor: pointer;
+        }
+        
+        section .testimonial {
+            background-color: #EEE;
+            height: 70%;
+            margin-top: 8rem;
+            display: grid;
+            grid-template-columns: 30% 70%;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-areas: "a a" "b c" "d e";
+        }
+        
+        section .testimonial h2 {
+            padding: 1em;
+            grid-area: a;
+        }
+        
+        section .testimonial img {
+            position: relative;
+            width: 8rem;
+            margin-top: 0.5em;
+            margin-left: 10vw;
+            border-radius: 50px;
+            grid-area: b;
+        }
+        
+        section .testimonial figcaption {
+            position: relative;
+            padding-top: 0.5em;
+            margin-left: 10vw;
+            font-size: 1.5rem;
+            font-weight: bold;
+            grid-area: d;
+        }
+        
+        section .testimonial p {
+            margin: auto;
+            grid-area: c;
+            width: 80%;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        
+        footer {
+            margin-top: 2rem;
+            padding-bottom: 2rem;
+            padding-top: 2rem;
+            background-color: #FEE2EA;
+        }
+        
+        footer p {
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            * {
+                font-size: 10px;
+            }
+            h1 {}
+        }
