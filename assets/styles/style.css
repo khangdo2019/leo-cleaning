@@ -11,13 +11,14 @@ header {
     top: 0;
     left: 0;
     background-color: white;
+    z-index: 100;
 }
 
 #logo {
     position: absolute;
     top: 0;
     left: 0;
-    width: 15%;
+    width: 12%;
 }
 
 h1 {
@@ -34,10 +35,11 @@ h2 {
     padding: 1rem;
     font-size: 2.5rem;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 header .slogan {
-    padding: 1rem;
+    padding: 0 1rem;
     text-align: center;
     color: #BC8648;
 }
@@ -45,6 +47,7 @@ header .slogan {
 header .slogan h2 {
     color: #BC8648;
     padding-top: 0;
+    padding-bottom: 0.5rem;
 }
 
 header .slogan div {
@@ -53,9 +56,6 @@ header .slogan div {
 }
 
 header .slogan img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-right: 4px;
 }
 
@@ -63,12 +63,100 @@ header .slogan p {
     display: flex;
     justify-content: center;
     align-items: center;
+    letter-spacing: 1px;
 }
 
 header .call-us {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 3rem 5rem;
-    width: 30%;
+    margin: 3rem 2rem;
+    width: 15%;
+}
+
+header .call-us p {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .call-us img {
+    width: 20%;
+}
+
+header .call-us span {
+    font-size: 2rem;
+}
+
+header .call-us p:last-child {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+section .covid {
+    background-color: #FEE2EA;
+    margin-top: 1rem;
+}
+
+section .covid p {
+    padding: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+}
+
+figure .main-picture img {
+    width: 100vw;
+}
+
+section .service {
+    background-color: #EEE;
+    margin-top: 1rem;
+}
+
+section .service .introduction {
+    padding: 1rem;
+}
+
+section .service .introduction p {
+    margin: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+section .service .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding: 1.5rem;
+}
+
+section .service .container .box {
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: #FEE2EA;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgb(0, 0, 0, 0.25);
+}
+
+section .service .container .box img {
+    width: 100%;
+}
+
+section .service .container .box h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+section .service .container .box p {
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5rem;
+    letter-spacing: 0.5px;
+    overflow: auto;
 }
